@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# slides dir
+Slides/
+
 # data
 *.npy
 # ide
