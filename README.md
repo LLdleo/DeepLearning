@@ -1,2 +1,2 @@
-# CS541
-Deep Learning Course
+# Deep Learning Course
+
