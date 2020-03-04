@@ -6,8 +6,15 @@ __pycache__/
 # slides dir
 Slides/
 
+# zip file
+.zip
+
+# doc file
+.doc
+.docx
+
 # data
-*.npy
+.npy
 # ide
 .idea/
 
