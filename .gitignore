@@ -7,14 +7,14 @@ __pycache__/
 Slides/
 
 # zip file
-.zip
+*.zip
 
 # doc file
-.doc
-.docx
+*.doc
+*.docx
 
 # data
-.npy
+*.npy
 # ide
 .idea/
 
