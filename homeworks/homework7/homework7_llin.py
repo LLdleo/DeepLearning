@@ -18,9 +18,9 @@ x_train, x_test = x_train.astype(np.float32)/255., x_test.astype(np.float32)/255
 # hyper parameters
 new_im = Image.new('L', (448, 84))
 image_size = 28*28
-h_dim = 512
-z_dim = 20
-num_epochs = 10
+h_dim = 200
+z_dim = 32
+num_epochs = 150
 batch_size = 100
 learning_rate = 1e-3
 
@@ -53,7 +53,7 @@ class VAE(tf.keras.Model):
 
     # decode function
     def decode_logits(self, z):
-        h = tf.nn.relu(self.fc4(z))
+        h = tf.nn.tanh(self.fc4(z))
         return self.fc5(h)
 
     # activation after decode
